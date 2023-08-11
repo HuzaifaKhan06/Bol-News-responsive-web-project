@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breaking News, Headlines, Top News Stories, Entertainment & ...</title>
+  <link rel="icon" type="image/x-icon" href="img/Fav-Icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <!-- ya header ka top hai  -->
+   <div class="container-fluid">
+    <div class="upper container">
+      <div class="row">
+        <div class="col-10 d-none d-lg-block">
+          <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <div class="">
+              <ol class="breadcrumb" >
+                <li class="breadcrumb-item"><div class="dropdown">
+                  <a class="btn  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b>EDITION: ENGLISH</b>
+                  </a>
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><b>ENGLISH</b></a></li>
+                    <li><a class="dropdown-item" href="#"><b>URDU</b></a></li>
+                  </ul>
+                </div></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  <a href="#" class="btn"><b>TUESDAY, AUG 08, 2023 | 
+                    UPDATED 08:56 AM PKT</b></a></li>
+              </ol>
+            </div>
+        </div>
+        <div class="col-lg-2 app d-none d-lg-block">
+          <a href="#" class="btn btn-text-danger">Download App</a>
+        </div>
+      </div>
+        
+      </nav>
+    </div>
+    <hr style="margin-top: -5px;">
+   </div>
+   <!-- ya header ka dusra section hai  -->
+   <div class="container-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="row">
+          <div class="col-lg-10 col-md-6 col-sm-6 ab d-none d-lg-block ">
+            
+              <a class="navbar-brand  " href="#"><img src="img/logo.png" alt="logo"></a>
+                
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <a class="navbar-brand  d-lg-none" href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"  id="navbarNav" aria-labelledby="offcanvasWithBothOptionsLabel" >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><ol class="breadcrumb" >
+                  <li class="breadcrumb-item"><div class="dropdown">
+                    <a class="btn  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <b>EDITION: ENGLISH</b>
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><b>ENGLISH</b></a></li>
+                      <li><a class="dropdown-item" href="#"><b>URDU</b></a></li>
+                    </ul>
+                  </div></li>
+                </ol></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active ac" aria-current="page" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ac" href="#">
+                    Briefs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ac" href="#">Videos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ac" href="#">Photos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ac" href="#">Stories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active ac" href="#">Social Media</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav stul d-lg-none" style="height: 50px;">
+                <li class="nav-item">
+                  <a class="nav-link active navta" aria-current="page" href="#" >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">Breaking News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">Top Headlines</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">Politics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">Entertainment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">Crime & Justice</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">World</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">Buisness</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">Tech</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#" style="color: #c4161c; ;">Live</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navta" href="#">E-Paper</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </div>
+    <hr class="d-none d-lg-block" style="margin-top: -5px;">
+    <!-- nav bar ka 3rd par -->
+  </div>
+  <div class="container-fluid bg-white">
+    <div class="container bg-white">
+      <div class="row bg-white">
+        <div class="col-10 bg-white" >
+          <div class=" bg-white">
+            <nav class="navbar navbar-expand-lg bg-white">
+              <div class="collapse navbar-collapse bg-white" id="navbarNav">
+                <ul class="navbar-nav stul bg-white" style="height: 50px;">
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta bg-white" aria-current="page" href="#" >Home</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">Breaking News</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">Top Headlines</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">Politics</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">Entertainment</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">Sports</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">Crime & Justice</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">World</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">Buisness</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">Tech</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#" style="color: #c4161c; ;">Live</a>
+                  </li>
+                  <li class="nav-item bg-white">
+                    <a class="nav-link active navta" href="#">E-Paper</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+    </div>
+  </div>
+  <hr style="margin-top:  -10px;  border:solid black;">
+  </header >
+<main container-fluid>
+  <div class="container">
+    <h3 class="inthenews">IN THE NEWS</h3>
+  </div>
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-6 col-md-12 col-sm-12 vl">
+        <div class="asimPic">
+          <a href="#" ><img src="img/pic1.jpg" alt="assim munir" class="asimMunir image-fluid rounded"><h3 class="textAsim">Involvement of Afghan nationals in <br> terror acts is harmfull toregional peace:<br>GEN ASIM</h3></a>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row orbs">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>FIA summons PTI Chief’s lawyer Naeem Panjotha over Dilawar Facebook posts...</b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic1.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row orbs">
+              <div class="col-6 "><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>Another two cases of Congo virus brought to Quetta’s hospital
+                ...</b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic2.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>IHC moved against PTI chairman’s sentence
+                ...</b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col1pic3.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>Nation salutes Major Tufail Muhammad Shaheed on his 65th Martyrdom Day: PM
+                ..</b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col1 pic4.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>PM, Raja Riaz to meet tomorrow on caretaker PM appointment
+                ...</b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic5.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>PM summons crucial cabinet meeting on energy today
+                ..</b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic6.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>ECC approves uniform tariff policy for K-Electric consumers   
+                ...</b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic7.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>FBR chief vows to resolve taxation issues of real-estate transactions
+              </b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic8.png" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>Rangers Lance Naik martyred in Lyari              </b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic9.jpeg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>Sindh Assembly will be dissolved on Aug 11
+              </b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic10.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+          <hr>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6 "><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>PSX witnesses negative trend as 199 points drop
+              </b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic11.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>Gold rate in Pakistan on Aug 7
+              </b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic12.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>Omani Military Chief of Staff visits Pakistan Navy HQ
+              </b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic13.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+            <hr class="d-lg-none">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="row ">
+              <div class="col-6"><a href="#" style="text-decoration: none; color: black;"><p style="font-size: 13px; margin-top: 1px;" ><b>USD to PKR rate up in open market on Aug 7
+              </b>
+              </p></div></a>
+              <div class="col-6"><a href="#"><img src="img/col pic14.jpg" class="rounded mx-auto d-block panjpic" alt="picture"></div></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12">
+        <div>
+          <div class="row pt-3">
+      
+             
+                
+                 
+                   <div class="col-lg-12 col-md-6 col-sm-6" style="padding-bottom: 40px; width: 12rem;">
+                    
+                      <a href="#"><img src="img/card1.jpg" class="card-img-top rounded" alt="img../error./server not found"></a>
+                      <div class="card-body">
+                        <a href="#" style="text-decoration: none; color: black; font-size: 13px;"><p class="card-text">Road named after Allama Iqbal in New York
+                        </p></a>
+                      </div>
+                    
+                   </div>
+                 
+                
+                
+                  <div class="col-lg-12 col-md-6 col-sm-6 " style="padding-bottom: 40px; width: 12rem;">
+                  
+                      <a href="#"><img src="img/card2.jpg" class="card-img-top rounded" alt="img../error./server not found"></a>
+                      <div class="card-body">
+                        <a href="#" style="text-decoration: none; color: black; font-size: 13px;"><p class="card-text">Armed Forces, Joint Chief, Services Chiefs pay homage to Shaheed Major Tufail....
+                        </p></a>
+                      </div>
+                  
+                  </div>
+                    
+                  
+                
+                
+                  
+                    <div class="col-lg-12 col-md-6 col-sm-6" style="padding-bottom: 40px; width: 12rem;">
+                      <a href="#"><img src="img/card3.jpg" class="card-img-top rounded" alt="img../error./server not found"></a>
+                      <div class="card-body">
+                        <a href="#" style="text-decoration: none; color: black; font-size: 13px;"><p class="card-text">PTI chairman is and will remain party head: Qureshi
+                        </p></a>
+                      </div>
+                    </div>
+                 
+                
+                
+                 
+                    <div class="col-lg-12 col-md-6 col-sm-6" style="padding-bottom: 40px; width: 12rem;">
+                      <a href="#"><img src="img/card4.jpg" class="card-img-top rounded" alt="img../error./server not found"></a>
+                      <div class="card-body">
+                        <a href="#" style="text-decoration: none; color: black; font-size: 13px;"><p class="card-text">UN chief urges Pakistan to respect due process, rule of law on PTI chairman arrest
+                        </p></a>
+                      </div>
+                    </div>
+                 
+                
+                
+                  
+                    <div class="col-lg-12  col-md-6 col-sm-6" style="padding-bottom: 10px; width: 12rem;">
+                      <a href="#"><img src="img/card5.jpg" class="card-img-top rounded" alt="img../error./server not found"></a>
+                      <div class="card-body">
+                        <a href="#" style="text-decoration: none; color: black; font-size: 13px;"><p class="card-text">ECP denies report of removal of Chairman PTI
+                        </p></a>
+                      </div>
+                    </div>
+                  
+
+                    <div class="col-lg-12  col-md-6 col-sm-6" style=" width: 12rem;">
+                      <a href="#"><img src="img/card6.jpg" class="card-img-top rounded" alt="img../error./server not found"></a>
+                      <div class="card-body">
+                        <a href="#" style="text-decoration: none; color: black; font-size: 13px;"><p class="card-text">Court dismisses plea seeking physical remand of Rizwana torture case suspect...
+                        </p></a>
+                      </div>
+                    </div>
+                
+                <!-- ccccccccccccccccccccccc -->
+             
+              
+              
+              
+              
+              
+            
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="ulClass">
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">Punjab board announced Matric Result 2023! Check...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Bahawalpur announced 10th Class result 2023|...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Rawalpindi announced 10th Class result 2023|...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Sahiwal announced 10th Class result 2023 |...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Sargodha announced 10th Class result 2023 |...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Gujranwala announced 10th Class result 2023 |...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Faisalabad announced 10th Class result 2023 |...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE D.G Khan announced 10th Class result 2023 |...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Multan announced 10th Class result 2023 ...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Lahore announced 10th Class result 2023 | Check...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">Heavy Rains Trigger High Flood Levels and Flash...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">BISE Lahore to Announce Matric Exam Results on 31st July 2023...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">Punjab Government to Soon Align Salaries and...</a></li> <hr>
+              <li><a href="#" class="anchorClassText" style="text-decoration: none; color: #000; font-size:small">How to Check Rs 750 Prize bond Draw list 2023...</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- main ka part 2 -->
+  <div class="container">
+    <h4 class="trendingnews"> <b>Trending News ...&nbsp;&nbsp;&nbsp;&nbsp; <a href="#" class="btn btn-danger imrankhanbtn">Imran Khan</a></b></h4>
+  </div>
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-7 col-md-6 col-sm-6">
+        <h3>OPED 	&gt;</h3>
+      </div>
+      <div class=" dd col-lg-5 col-md-6 col-sm-6">
+        <a href="#" class="btn btn-group" role="group" style="color: #c4161c; border-bottom:3px solid #c4161c; box-sizing: border-box; border-radius: 0;">OPED</a>
+          <a href="#" class=" underline" type="btn">EDITORIAL</a>
+      </div>
+    </div>
+  </div>
+<!-- cccccccccc -->
+<section>
+  <div class="container-fluid my-5">
+    <div class="row">
+      <div class="owl-carousel owl-theme">
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c1.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >One step to the left, one to the right</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">It is extremely difficult to fathom what Pakistan is transforming into with painful..y.</p>
+              <p class="cbdp1">
+                BY RAOUF HASSAN
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c2.png" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >China-Iran strategic foresight</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">In a telephonic conversation with his Iranian counterpart Hossein Amir-Abdollahian, Foreign Minister Qin Gan...</p>
+              <p class="cbdp1">
+                BY Hamzah Hussain
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c3.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Criminal displacement</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">Kashmiris have been heavily bearing the brunt of Modi regime’s onslaught since the day it revoked the special...</p>
+              <p class="cbdp1">
+                BY Altaf Hussain Wani
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c4.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Criminal displacement</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">India’s hard-right Hindu nationalist Bharatiya Janata Party (BJP) government is pushing very hard to prevent...</p>
+              <p class="cbdp1">
+                BY Hannan R. Hussain
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c5.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Return to the constitution</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">The people of Pakistan, especially with low and fixed incomes, have once again been burdened with exorbitant...</p>
+              <p class="cbdp1">
+                BY Dr Ikramul Haq
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c6..jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Kashmir Solidarity Day</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">Kashmir Solidarity Day (Urdu: یوم یکجہتی کشمیر) or Kashmir Day is a national holiday observed....</p>
+              <p class="cbdp1">
+                BY M Huzaifa Khan
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c1.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >One step to the left, one to the right</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">It is extremely difficult to fathom what Pakistan is transforming into with painful..y.</p>
+              <p class="cbdp1">
+                BY RAOUF HASSAN
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c2.png" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >China-Iran strategic foresight</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">In a telephonic conversation with his Iranian counterpart Hossein Amir-Abdollahian, Foreign Minister Qin Gan...</p>
+              <p class="cbdp1">
+                BY Hamzah Hussain
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c3.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Criminal displacement</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">Kashmiris have been heavily bearing the brunt of Modi regime’s onslaught since the day it revoked the special...</p>
+              <p class="cbdp1">
+                BY Altaf Hussain Wani
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c4.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Criminal displacement</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">India’s hard-right Hindu nationalist Bharatiya Janata Party (BJP) government is pushing very hard to prevent...</p>
+              <p class="cbdp1">
+                BY Hannan R. Hussain
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c5.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Return to the constitution</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">The people of Pakistan, especially with low and fixed incomes, have once again been burdened with exorbitant...</p>
+              <p class="cbdp1">
+                BY Dr Ikramul Haq
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c6..jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Kashmir Solidarity Day</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">Kashmir Solidarity Day (Urdu: یوم یکجہتی کشمیر) or Kashmir Day is a national holiday observed....</p>
+              <p class="cbdp1">
+                BY M Huzaifa Khan
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c1.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >One step to the left, one to the right</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">It is extremely difficult to fathom what Pakistan is transforming into with painful..y.</p>
+              <p class="cbdp1">
+                BY RAOUF HASSAN
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c2.png" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >China-Iran strategic foresight</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">In a telephonic conversation with his Iranian counterpart Hossein Amir-Abdollahian, Foreign Minister Qin Gan...</p>
+              <p class="cbdp1">
+                BY Hamzah Hussain
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c3.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Criminal displacement</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">Kashmiris have been heavily bearing the brunt of Modi regime’s onslaught since the day it revoked the special...</p>
+              <p class="cbdp1">
+                BY Altaf Hussain Wani
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c4.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Criminal displacement</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">India’s hard-right Hindu nationalist Bharatiya Janata Party (BJP) government is pushing very hard to prevent...</p>
+              <p class="cbdp1">
+                BY Hannan R. Hussain
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c1.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >One step to the left, one to the right</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">It is extremely difficult to fathom what Pakistan is transforming into with painful..y.</p>
+              <p class="cbdp1">
+                BY RAOUF HASSAN
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c2.png" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >China-Iran strategic foresight</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">In a telephonic conversation with his Iranian counterpart Hossein Amir-Abdollahian, Foreign Minister Qin Gan...</p>
+              <p class="cbdp1">
+                BY Hamzah Hussain
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c3.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Criminal displacement</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">Kashmiris have been heavily bearing the brunt of Modi regime’s onslaught since the day it revoked the special...</p>
+              <p class="cbdp1">
+                BY Altaf Hussain Wani
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c4.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Criminal displacement</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">India’s hard-right Hindu nationalist Bharatiya Janata Party (BJP) government is pushing very hard to prevent...</p>
+              <p class="cbdp1">
+                BY Hannan R. Hussain
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c5.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Return to the constitution</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">The people of Pakistan, especially with low and fixed incomes, have once again been burdened with exorbitant...</p>
+              <p class="cbdp1">
+                BY Dr Ikramul Haq
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c6..jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Kashmir Solidarity Day</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">Kashmir Solidarity Day (Urdu: یوم یکجہتی کشمیر) or Kashmir Day is a national holiday observed....</p>
+              <p class="cbdp1">
+                BY M Huzaifa Khan
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c5.jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Return to the constitution</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">The people of Pakistan, especially with low and fixed incomes, have once again been burdened with exorbitant...</p>
+              <p class="cbdp1">
+                BY Dr Ikramul Haq
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="item"> 
+          <div class="card bg-light bg-gradient">
+            <a href="#" class="a2cl"><img src="img/c6..jpg" class="rounded-circle " style="width: 50px; height: auto;"  alt="img" ><h4 class="h2cl" >Kashmir Solidarity Day</h4></a>
+            <div class="card-body cbd">
+              <p class="cbdp">Kashmir Solidarity Day (Urdu: یوم یکجہتی کشمیر) or Kashmir Day is a national holiday observed....</p>
+              <p class="cbdp1">
+                BY M Huzaifa Khan
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+    </div>
+    </div>
+
+  </div>
+</section>
+<hr>
+<hr>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+  integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+  crossorigin="anonymous"></script>
+  <!-- <........................................> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+  </script>
+</body>
+</html>
